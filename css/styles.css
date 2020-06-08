@@ -1,0 +1,103 @@
+/**********FONT INSERTION**********/
+@font-face {
+    font-family: 'ralewaylight_italic';
+    src: url('fonts/raleway-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/raleway-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('fonts/raleway-medium-webfont.woff2') format('woff2'),
+         url('fonts/raleway-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('fonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('fonts/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/**********************CLASS SELECTORS**********************/
+.pic {
+  margin: 80px auto;
+  display: block;
+}
+.middle {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+/**********************TAG SELECTORS**********************/
+body {
+  background-color: #fffff2;
+}
+hr {
+  width: 5%;
+  border-style: dotted hidden hidden;
+  border-width: 6px;
+  border-color: #d4ecd4;
+}
+h1 {
+  font-family: 'ralewayregular', sans-serif;
+  color: #566d47;
+  font-size: 60px;
+}
+h3 {
+  font-family: 'ralewayregular', sans-serif;
+  color: #566d47;
+  font-size: 40px;
+}
+ul {
+  width: 35%;
+  margin-left: 35%;
+  margin-right: auto;
+  text-align: left;
+  font-family: 'ralewaymedium', sans-serif;
+  font-size: 18px;
+  color: #4d3e3e;
+}
+ol {
+  width:25%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'ralewaymedium', sans-serif;
+  font-size: 18px;
+  color: #4d3e3e;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'ralewaymedium', sans-serif;
+  font-size: 18px;
+  color: #4d3e3e;
+  text-align: center;
+}
+p {
+  font-family: 'ralewaymedium', sans-serif;
+  font-size: 18px;
+  color: #4d3e3e;
+}
+label {
+  font-family: 'ralewaymedium', sans-serif;
+  font-size: 18px;
+  color: #4d3e3e;
+}
+input {
+  font-family: 'ralewaylight_italic', sans-serif;
+  font-size: 18px;
+  color: #4d3e3e;
+}
